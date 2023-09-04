@@ -638,6 +638,11 @@ footer{
     .skills-box{
         flex-direction: column;
     }
+    .skills-list{
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
 }
 
 /* ----- MEDIA QUERY == 540px / RESPONSIVE ----- */
