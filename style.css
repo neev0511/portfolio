@@ -275,6 +275,9 @@ nav{
 }
 
 /* ----- MAIN BOX ----- */
+#about {
+    margin-top: -250px;
+}
 .section{
     padding-block: 5em;
 }
