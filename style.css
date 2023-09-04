@@ -243,8 +243,10 @@ nav{
     margin-top: 100px;
 }
 .image img{
-    width: 100%;
+    width: 300px;
     object-fit: contain;
+    margin-left: 30%;
+    display: none;
 }
 @keyframes imgFloat {
     50%{
@@ -348,6 +350,8 @@ h3{
     display: flex;
     flex-wrap: wrap;
     gap: 5px;
+    align-items: center;
+    justify-content: center;
 }
 .skills-list span{
     font-size: 14px;
@@ -359,8 +363,12 @@ h3{
 
 #skill {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 /* ----- PROJECTS BOX ----- */
@@ -581,6 +589,7 @@ footer{
         flex-direction: column;
         justify-content: center;
         height: 100vh;
+        margin-top: -200px;
     }
     .featured-text{
         width: 100%;
@@ -622,6 +631,9 @@ footer{
     .image, .image img{
         width: 400px;
         margin-top: 0px;
+    }
+    .skills-box{
+        flex-direction: column;
     }
 }
 
