@@ -12,13 +12,24 @@
     <!-- CSS -->
     <link rel="stylesheet" href="./style.css" />
     <!-- Add favicon -->
-    <link
-      rel="shortcut icon"
-      href="assets/images/favicon.png"
-      type="image/x-icon"
-    />
+    <link rel="shortcut icon" href="avatar.png" />
 
     <title>Neev Jain</title>
+
+    <script>
+      function sendEmail() {
+        subject = document.getElementById("mail_subject");
+        message = document.getElementById("mail_message");
+        document.getElementById("mail_subject").value = "";
+        document.getElementById("mail_message").value = "";
+        window.open(
+          "mailto:neev0511jain@gmail.com?subject=" +
+            subject +
+            "&body=" +
+            message
+        );
+      }
+    </script>
   </head>
 
   <body>
@@ -102,7 +113,7 @@
           </div>
           <div class="featured-image">
             <div class="image">
-              <img src="./avatar.png" alt="avatar" />
+              <img src="./avatar.png" alt="avatar" id="avatar" />
             </div>
           </div>
           <div class="scroll-icon-box">
@@ -143,10 +154,10 @@
                 </div>
               </div>
             </div>
-            <div class="col">
+            <div class="col" id="skill">
               <div class="skills-box">
                 <div class="skills-header">
-                  <h3>Frontend</h3>
+                  <h3>Web Development</h3>
                 </div>
                 <div class="skills-list">
                   <span>HTML</span>
@@ -253,14 +264,18 @@
             <div class="col">
               <div class="form-control">
                 <div class="form-inputs">
-                  <input type="text" class="input-field" placeholder="Name" />
-                  <input type="text" class="input-field" placeholder="Email" />
+                  <input
+                    type="text"
+                    class="input-field"
+                    placeholder="Subject"
+                    id="mail_subject"
+                  />
                 </div>
                 <div class="text-area">
-                  <textarea placeholder="Message"></textarea>
+                  <textarea placeholder="Message" id="mail_message"></textarea>
                 </div>
                 <div class="form-button">
-                  <button class="btn">
+                  <button class="btn" onclick="sendEmail()">
                     Send <i class="uil uil-message"></i>
                   </button>
                 </div>
