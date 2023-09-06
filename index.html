@@ -18,8 +18,8 @@
 
     <script>
       function sendEmail() {
-        subject = document.getElementById("mail_subject");
-        message = document.getElementById("mail_message");
+        subject = document.getElementById("mail_subject").value;
+        message = document.getElementById("mail_message").value;
         document.getElementById("mail_subject").value = "";
         document.getElementById("mail_message").value = "";
         window.open(
