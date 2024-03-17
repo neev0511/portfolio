@@ -11,8 +11,6 @@
     />
     <!-- CSS -->
     <link rel="stylesheet" href="./style.css" />
-    <!-- Add favicon -->
-    <link rel="shortcut icon" href="avatar.png" />
 
     <title>Neev Jain</title>
 
@@ -51,6 +49,10 @@
               <div class="circle"></div>
             </li>
             <li class="nav_list">
+              <a href="#skills" class="nav-link">Skills</a>
+              <div class="circle"></div>
+            </li>
+            <li class="nav_list">
               <a href="#projects" class="nav-link">Projects</a>
               <div class="circle"></div>
             </li>
@@ -61,13 +63,9 @@
           </ul>
         </div>
         <div class="nav-button">
-          <a
-            href="https://drive.google.com/file/d/1WErqqs07W0p29YwMkRKu-hRmakzHOPkN/view?usp=drive_link"
-            style="color: inherit; text-decoration: none"
-          >
-            <button class="btn">
-              Download CV <i class="uil uil-import"></i></button
-          ></a>
+          <button class="btn" onclick="window.open('./Resume.pdf')">
+            Download CV <i class="uil uil-import"></i>
+          </button>
         </div>
         <div class="nav-menu-btn">
           <i class="uil uil-bars" onclick="myMenuFunction()"></i>
@@ -140,20 +138,39 @@
                   disciplines at the undergraduate level.
                 </p>
                 <div class="about-btn">
-                  <a
-                    href="https://drive.google.com/file/d/1WErqqs07W0p29YwMkRKu-hRmakzHOPkN/view?usp=drive_link"
-                    style="color: inherit; text-decoration: none"
-                  >
-                    <button class="btn">
-                      Download CV <i class="uil uil-import"></i></button
-                  ></a>
+                  <button class="btn" onclick="window.open('./Resume.pdf')">
+                    Download CV <i class="uil uil-import"></i>
+                  </button>
                 </div>
               </div>
             </div>
           </div>
           <br /><br /><br />
+        </section>
+        <!-- -------------- SKILLS BOX ---------------- -->
+
+        <section class="section" id="skills">
+          <div class="top-header"><h1>Skills</h1></div>
           <div class="row">
             <div class="col" id="skill" style="width: 100%">
+              <div class="skills-box">
+                <div class="skills-header">
+                  <h3>Database</h3>
+                </div>
+                <div class="skills-list">
+                  <span>MySQL</span>
+                  <span>MongoDB</span>
+                </div>
+              </div>
+              <div class="skills-box">
+                <div class="skills-header">
+                  <h3>Software</h3>
+                </div>
+                <div class="skills-list">
+                  <span>Python</span>
+                  <span>Java</span>
+                </div>
+              </div>
               <div class="skills-box">
                 <div class="skills-header">
                   <h3>Frontend</h3>
@@ -175,28 +192,9 @@
                   <span>Express</span>
                 </div>
               </div>
-              <div class="skills-box">
-                <div class="skills-header">
-                  <h3>Database</h3>
-                </div>
-                <div class="skills-list">
-                  <span>MySQL</span>
-                  <span>MongoDB</span>
-                </div>
-              </div>
-              <div class="skills-box">
-                <div class="skills-header">
-                  <h3>Software</h3>
-                </div>
-                <div class="skills-list">
-                  <span>Python</span>
-                  <span>Java</span>
-                </div>
-              </div>
             </div>
           </div>
         </section>
-
         <!-- -------------- PROJECT BOX ---------------- -->
 
         <section class="section" id="projects">

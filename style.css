@@ -209,7 +209,7 @@ nav{
 }
 .social_icons{
     display: flex;
-    margin-top: 5em;
+    margin-top: 1em;    
     gap: 30px;
 }
 .icon{
@@ -560,6 +560,9 @@ footer{
 
 /* ----- MEDIA QUERY == 900px / RESPONSIVE ----- */
 @media only screen and (max-width: 970px) {
+    .wrapper{
+        margin-top: 100px;
+    }
     .nav-button{
         display: none;
     }
