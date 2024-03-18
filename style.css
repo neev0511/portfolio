@@ -657,9 +657,6 @@ footer{
         align-items: center;
         justify-content: center;
     }
-    .nav-link{
-        font-size: 150px;
-    }
 }
 
 /* ----- MEDIA QUERY == 900px / RESPONSIVE ----- */
