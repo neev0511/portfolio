@@ -56,6 +56,9 @@ sr.reveal(".featured-image", { delay: 300 });
 /* -- PROJECT BOX -- */
 sr.reveal(".project-box", { interval: 200 });
 
+/* -- WORK BOX -- */
+sr.reveal(".work-box", { interval: 200 });
+
 /* -- HEADINGS -- */
 sr.reveal(".top-header", {});
 
@@ -69,8 +72,8 @@ const srLeft = ScrollReveal({
   reset: true,
 });
 
-srLeft.reveal(".about-info", { delay: 100 });
 srLeft.reveal(".contact-info", { delay: 100 });
+srLeft.reveal(".about_pic", { delay: 100 });
 
 /* -- ABOUT SKILLS & FORM BOX -- */
 const srRight = ScrollReveal({
@@ -80,6 +83,7 @@ const srRight = ScrollReveal({
   reset: true,
 });
 
+srRight.reveal(".about-info", { delay: 100 });
 srRight.reveal(".skills-box", { delay: 100 });
 srRight.reveal(".form-control", { delay: 100 });
 
