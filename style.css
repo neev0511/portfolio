@@ -5,15 +5,14 @@
 :root{
     --body-color: rgb(250, 250, 250);
     --color-white: rgb(255, 255, 255);
-
     --text-color-second: rgb(68, 68, 68);
-    --text-color-third: rgb(30, 159, 171);
+    --text-color-third: #E55847;
 
-    --first-color: rgb(110, 87, 224);
-    --first-color-hover: rgb(40, 91, 212);
+    --first-color: #E52715;
+    --first-color-hover: #E55847;
 
-    --second-color: rgb(110, 87, 224);
-    --third-color: rgb(192, 166, 49);
+    --second-color: #E55847;
+    --third-color: #E66E50;
     --first-shadow-color: rgba(0, 0, 0, 0.1);
 
 }
@@ -66,6 +65,10 @@ html{
 .btn:hover{
     background: var(--second-color);
     color: var(--color-white);
+}
+
+.bottom-footer p a {
+    color: var(--first-color-hover);
 }
 
 /* ----- GLOBAL ICONS DESIGN ----- */
@@ -221,9 +224,8 @@ nav{
     border-radius: 50%;
     box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.25);
     cursor: pointer;
-    color: #000;
 }
-.icon:hover{
+.icon a i{
     color: var(--first-color);
 }
 
@@ -328,7 +330,7 @@ h3{
 .about-info p{
     text-align: center;
     font-size: 15px;
-    color: #777;
+    color: var(--text-color-second);
 }
 .about-btn button{
     position: absolute;
@@ -402,7 +404,7 @@ h3{
 }
 .project-box label{
     font-size: 15px;
-    color: #777;
+    color: var(--text-color-second);
     margin-left: 20px;
     margin-right: 20px;
 }
@@ -454,7 +456,7 @@ h3{
 }
 .work-box label{
     font-size: 15px;
-    color: #777;
+    color: var(--text-color-second);
     margin-left: 20px;
     margin-right: 20px;
 }
@@ -514,7 +516,7 @@ h3{
 .contact-info:hover.contact-info h2,
 .contact-info:hover.contact-info p,
 .contact-info:hover.contact-info i{
-    color: #777;
+    color: var(--text-color-second);
     z-index: 2;
 }
 
@@ -555,9 +557,6 @@ textarea{
     justify-content: center;
     background: var(--second-color);
     color: var(--color-white);
-}
-.form-button>.btn:hover{
-    background: #00B5E7;
 }
 .form-button i{
     font-size: 18px;
