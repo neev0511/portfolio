@@ -114,10 +114,27 @@ function resume() {
 }
 
 function email_details() {
+  url = "https://portfolio-backend-nxm5.onrender.com/addSiteMessage";
   var name = document.getElementById("form-name").value;
   var email = document.getElementById("form-email").value;
   var phone = document.getElementById("form-phone").value;
   var message = document.getElementById("form-message").value;
   console.log(name, email, phone, message);
-  window.alert("Message Sent");
+  if (name === "" || email === "" || phone === "" || message === "") {
+    window.alert("All details are required");
+  }
+  axios
+    .post(url, {
+      name: name,
+      email: email,
+      phone: phone,
+      message: message,
+    })
+    .then(function (response) {
+      window.alert("Message Sent");
+    })
+    .catch(function (error) {
+      console.log(error);
+      window.alert("Message was not sent due to server error");
+    });
 }
