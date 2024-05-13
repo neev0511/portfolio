@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--========== UNICONS ==========-->
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+    <!--========== BOXICONS ==========-->
+    <link
+      href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!--========== MAIN CSS ==========-->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>Neev Jain</title>
+  </head>
+
+  <body>
+    <!--========== SIDEBAR ==========-->
+    <div class="nav_toggle" id="nav-toggle">
+      <i class="uil uil-bars"></i>
+    </div>
+    <aside class="sidebar" id="sidebar">
+      <nav class="nav">
+        <div class="nav_logo">
+          <a href="index.html" class="nav_logo-text">N</a>
+        </div>
+
+        <div class="nav_menu">
+          <div class="menu">
+            <ul class="nav_list">
+              <li class="nav_item">
+                <a href="#home" class="nav_link active-link">Home</a>
+              </li>
+              <li class="nav_item">
+                <a href="#about" class="nav_link">About</a>
+              </li>
+              <li class="nav_item">
+                <a href="#skills" class="nav_link">Skills</a>
+              </li>
+              <li class="nav_item">
+                <a href="#work" class="nav_link">Work</a>
+              </li>
+              <li class="nav_item">
+                <a href="#contact" class="nav_link">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="nav_close" id="nav-close">
+          <i class="uil uil-times"></i>
+        </div>
+      </nav>
+    </aside>
+    <!--========== MAIN ==========-->
+    <main class="main">
+      <!--===== Home =====-->
+      <section class="home" id="home">
+        <div class="home_container container grid">
+          <div class="home_social">
+            <span class="home_social-follow">Follow Me</span>
+            <div class="home_social-links">
+              <a
+                href="https://www.linkedin.com/in/neev-jain-898819210/"
+                target="_blank"
+                class="home_social-link"
+                ><i class="uil uil-linkedin"></i
+              ></a>
+              <a
+                href="https://github.com/neev0511"
+                target="_blank"
+                class="home_social-link"
+                ><i class="uil uil-github"></i>
+              </a>
+              <a
+                href="https://instagram.com/neev0511jain/"
+                target="_blank"
+                class="home_social-link"
+                ><i class="uil uil-instagram"></i
+              ></a>
+            </div>
+          </div>
+          <img src="assets/img/home-img.png" alt="" class="home_img" />
+
+          <div class="home_data">
+            <h1 class="home_title">Hi, I'm Neev</h1>
+            <h3 class="home_subtitle">Student & Developer</h3>
+            <p class="home_description">
+              I'm a student at Boston University studiying Computer Engineering.
+            </p>
+            <a href="#about" class="button"
+              ><i class="uil uil-user button_icon"></i>
+              More About Me
+            </a>
+          </div>
+
+          <div class="my_info">
+            <a href="https://www.linkedin.com/in/neev-jain-898819210/">
+              <div class="info_item">
+                <i class="uil uil-linkedin info_icon"></i>
+
+                <div>
+                  <h3 class="info_title">Linked In</h3>
+                  <span class="info_subtitle">Neev Jain</span>
+                </div>
+              </div>
+            </a>
+
+            <a href="https://www.instagram.com/neev0511jain/">
+              <div class="info_item">
+                <i class="uil uil-instagram info_icon"></i>
+
+                <div>
+                  <h3 class="info_title">Instagram</h3>
+                  <span class="info_subtitle">@neev0511jain</span>
+                </div>
+              </div>
+            </a>
+
+            <a href="mailto:neev0511jain@gmail.com">
+              <div class="info_item">
+                <i class="uil uil-envelope-edit info_icon"></i>
+
+                <div>
+                  <h3 class="info_title">E-mail</h3>
+                  <span class="info_subtitle">neev0511jain@gmail.com</span>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!--===== About =====-->
+      <section class="about section" id="about">
+        <h2 data-heading="My Intro" class="section_title">About Me</h2>
+        <div class="about_container container grid">
+          <img src="assets/img/about-img.png" alt="" class="about_img" />
+          <div class="about_data">
+            <h3 class="about_heading">
+              Hi, I'm Neev, Studying at Boston University
+            </h3>
+            <p class="about_description">
+              With a robust foundation in computer science and mathematics
+              cultivated through coding, research, and enrichment programs, I
+              aspire to further develop my technical abilities and leadership
+              skills in an intellectually stimulating undergraduate environment.
+              My academic excellence, passion for technology, and multifaceted
+              experience make me well-prepared to positively contribute to the
+              field.
+            </p>
+            <a href="#about" class="button" onclick="resume()"> My Resume</a>
+          </div>
+        </div>
+
+        <!--===== Qualification =====-->
+        <div class="qualification section">
+          <h2 data-heading="My Journey" class="section_title">
+            Qualifications
+          </h2>
+          <div class="qualification_container container grid">
+            <div class="education">
+              <h3 class="qualification_title">
+                <i class="uil uil-graduation-cap"></i>Education
+              </h3>
+              <div class="timeline">
+                <div class="timeline_item">
+                  <div class="circle_dot"></div>
+                  <h3 class="timeline_title">Boston University, USA</h3>
+                  <div class="timeline_text">
+                    B.Sc. In Electrical & Computer Engineering
+                  </div>
+                  <span class="timeline_date"
+                    ><i class="uil uil-calender-alt"></i>2024 - Present</span
+                  >
+                </div>
+                <div class="timeline_item">
+                  <div class="circle_dot"></div>
+                  <h3 class="timeline_title">
+                    G. D. Goenka Public School, New Delhi, India
+                  </h3>
+                  <div class="timeline_text">School Graduation</div>
+                  <span class="timeline_date"
+                    ><i class="uil uil-calender-alt"></i>2020 - 2024</span
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="experience">
+              <h3 class="qualification_title">
+                <i class="uil uil-suitcase"></i>Experience
+              </h3>
+              <div class="timeline">
+                <div class="timeline_item">
+                  <div class="circle_dot"></div>
+                  <h3 class="timeline_title">
+                    TalentHome Solutions LLP - Intern
+                  </h3>
+                  <div class="timeline_text">
+                    Intern in a team of 4; Built functional web solutions
+                    collaborating with seasoned developers; leveraged full-stack
+                    abilities; worked on app development for career choices
+                  </div>
+                  <span class="timeline_date"
+                    ><i class="uil uil-calender-alt"></i>April 2021 - May
+                    2021</span
+                  >
+                </div>
+                <div class="timeline_item">
+                  <div class="circle_dot"></div>
+                  <h3 class="timeline_title">SUPROS - Intern</h3>
+                  <div class="timeline_text">
+                    Built a chatbot using online tools & python; Optimized codes
+                    & simplified algorithms; Ensured communication within the
+                    team & reporting to Mr. Amandeep Gulati (Software Engineer
+                    at Google & Amazon).
+                  </div>
+                  <span class="timeline_date"
+                    ><i class="uil uil-calender-alt"></i>July 2021- August
+                    2021</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--===== Skills =====-->
+      <section class="skills section" id="skills">
+        <h2 class="section_title" data-heading="My Abilities">My Skills</h2>
+
+        <div class="skills_container container grid">
+          <div class="skills_tabs">
+            <div class="skills_header skills_active" data-target="#frontend">
+              <i class="uil uil-brackets-curly skills_icon"></i>
+
+              <div>
+                <h1 class="skills_title">Frontend</h1>
+                <span class="skills_subtitle">More than 2 years</span>
+              </div>
+
+              <i class="uil uil-angle-down skills_arrow"></i>
+            </div>
+
+            <div class="skills_header" data-target="#software">
+              <i class="uil uil-swatchbook skills_icon"></i>
+
+              <div>
+                <h1 class="skills_title">Software</h1>
+                <span class="skills_subtitle">More than 5 years</span>
+              </div>
+
+              <i class="uil uil-angle-down skills_arrow"></i>
+            </div>
+
+            <div class="skills_header" data-target="#backend">
+              <i class="uil uil-server-network skills_icon"></i>
+
+              <div>
+                <h1 class="skills_title">Backend</h1>
+                <span class="skills_subtitle">More than 2 years</span>
+              </div>
+
+              <i class="uil uil-angle-down skills_arrow"></i>
+            </div>
+          </div>
+
+          <div class="skills_content">
+            <div class="skills_group skills_active" data-content id="frontend">
+              <div class="skills_list grid">
+                <div class="skills_data">
+                  <div class="skills_titles">
+                    <h3 class="skills_name">HTML</h3>
+                    <span class="skills_number"> 90%</span>
+                  </div>
+
+                  <div class="skills_bar">
+                    <span class="skills_percentage" style="width: 90%"></span>
+                  </div>
+                </div>
+
+                <div class="skills_data">
+                  <div class="skills_titles">
+                    <h3 class="skills_name">CSS</h3>
+                    <span class="skills_number"> 80%</span>
+                  </div>
+
+                  <div class="skills_bar">
+                    <span class="skills_percentage" style="width: 80%"></span>
+                  </div>
+                </div>
+
+                <div class="skills_data">
+                  <div class="skills_titles">
+                    <h3 class="skills_name">JavaScript</h3>
+                    <span class="skills_number"> 80%</span>
+                  </div>
+
+                  <div class="skills_bar">
+                    <span class="skills_percentage" style="width: 80%"></span>
+                  </div>
+                </div>
+
+                <div class="skills_data">
+                  <div class="skills_titles">
+                    <h3 class="skills_name">React</h3>
+                    <span class="skills_number"> 75%</span>
+                  </div>
+
+                  <div class="skills_bar">
+                    <span class="skills_percentage" style="width: 75%"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="skills_group" data-content id="software">
+              <div class="skills_list grid">
+                <div class="skills_data">
+                  <div class="skills_titles">
+                    <h3 class="skills_name">Python</h3>
+                    <span class="skills_number"> 90%</span>
+                  </div>
+
+                  <div class="skills_bar">
+                    <span class="skills_percentage" style="width: 90%"></span>
+                  </div>
+                </div>
+
+                <div class="skills_data">
+                  <div class="skills_titles">
+                    <h3 class="skills_name">Java</h3>
+                    <span class="skills_number"> 60%</span>
+                  </div>
+
+                  <div class="skills_bar">
+                    <span class="skills_percentage" style="width: 60%"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="skills_group" data-content id="backend">
+              <div class="skills_list grid">
+                <div class="skills_data">
+                  <div class="skills_titles">
+                    <h3 class="skills_name">Node</h3>
+                    <span class="skills_number"> 80%</span>
+                  </div>
+
+                  <div class="skills_bar">
+                    <span class="skills_percentage" style="width: 80%"></span>
+                  </div>
+                </div>
+
+                <div class="skills_data">
+                  <div class="skills_titles">
+                    <h3 class="skills_name">Express</h3>
+                    <span class="skills_number"> 80%</span>
+                  </div>
+
+                  <div class="skills_bar">
+                    <span class="skills_percentage" style="width: 80%"></span>
+                  </div>
+                </div>
+
+                <div class="skills_data">
+                  <div class="skills_titles">
+                    <h3 class="skills_name">MySQL</h3>
+                    <span class="skills_number"> 90%</span>
+                  </div>
+
+                  <div class="skills_bar">
+                    <span class="skills_percentage" style="width: 90%"></span>
+                  </div>
+                </div>
+
+                <div class="skills_data">
+                  <div class="skills_titles">
+                    <h3 class="skills_name">MongoDB</h3>
+                    <span class="skills_number"> 70%</span>
+                  </div>
+
+                  <div class="skills_bar">
+                    <span class="skills_percentage" style="width: 70%"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--===== Work =====-->
+      <section class="work section" id="work">
+        <h3 class="section_title" data-heading="My Portfolio">Recent Works</h3>
+
+        <div class="work_filters">
+          <span class="work_item active-work" data-filter="all">All</span>
+          <span class="work_item" data-filter=".web">Web</span>
+          <span class="work_item" data-filter=".app">App</span>
+        </div>
+
+        <div class="work_container container grid">
+          <div class="work_card mix app">
+            <h3 class="work_title">Voice Assistant</h3>
+            <div class="work_description">
+              Created a Voice Assistant using Python. Programmed a virtual
+              assistant with speech recognition and voice capabilities using
+              Python. Integrated open-source libraries to enable conversational
+              interactions.
+            </div>
+            <div class="work_technologies">
+              <span>Python</span>
+            </div>
+            <a href="https://github.com/neev0511/Gideon">
+              <span class="work_button"
+                >Code
+                <i class="uil uil-arrow-right work_button-icon"></i>
+              </span>
+            </a>
+          </div>
+          <div class="work_card mix web">
+            <h3 class="work_title">Expense Tracker</h3>
+            <div class="work_description">
+              A comprehensive web application designed to monitor and analyze
+              expenses, featuring a user-friendly interface.
+            </div>
+            <div class="work_technologies">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JS</span>
+              <span>Node</span>
+              <span>Express</span>
+              <span>MongoDB</span>
+            </div>
+            <a href="https://neev0511.github.io/Expense-Tracker-frontend/">
+              <span class="work_button"
+                >Demo
+                <i class="uil uil-arrow-right work_button-icon"></i>
+              </span>
+            </a>
+          </div>
+          <div class="work_card mix app">
+            <h3 class="work_title">Newsletter</h3>
+            <div class="work_description">
+              Developed an app to email daily news using various news APIs and
+              becoming a one-stop shop app. Automated the process to run daily
+              and send a customizable email digest.
+            </div>
+            <div class="work_technologies">
+              <span>Python</span>
+            </div>
+            <a href="https://github.com/neev0511/Newsletter">
+              <span class="work_button"
+                >Code
+                <i class="uil uil-arrow-right work_button-icon"></i>
+              </span>
+            </a>
+          </div>
+          <div class="work_card mix web">
+            <h3 class="work_title">To-Do List</h3>
+            <div class="work_description">
+              A simple and intuitive web application that allows users to
+              create, manage, and track their daily tasks and to-do items.
+            </div>
+            <div class="work_technologies">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JS</span>
+              <span>Node</span>
+              <span>Express</span>
+              <span>MongoDB</span>
+            </div>
+            <a href="https://neev0511.github.io/To-Do-frontend/">
+              <span class="work_button"
+                >Demo
+                <i class="uil uil-arrow-right work_button-icon"></i>
+              </span>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!--===== Contact =====-->
+      <section class="contact section" id="contact">
+        <h2 data-heading="Get in touch" class="section_title">Contact Me</h2>
+
+        <div class="contact_container container grid">
+          <div class="contact_content">
+            <div class="contact_info">
+              <div class="contact_card">
+                <i class="uil uil-envelope-edit contact_icon"></i>
+                <h3 class="contact_card-title">Email</h3>
+                <span class="contact_card-data">neev0511jain@gmail.com</span>
+                <span class="contact_button">
+                  Write me
+                  <i class="uil uil-arrow-right contact_button-icon"></i>
+                </span>
+              </div>
+
+              <div class="contact_card">
+                <i class="uil uil-instagram contact_icon"></i>
+                <h3 class="contact_card-title">Instagram</h3>
+                <span class="contact_card-data">@neev0511jain</span>
+                <a href="https:/instagram.com/neev0511jain">
+                  <span class="contact_button">
+                    Write me
+                    <i class="uil uil-arrow-right contact_button-icon"></i>
+                  </span>
+                </a>
+              </div>
+
+              <div class="contact_card">
+                <i class="uil uil-linkedin contact_icon"></i>
+                <h3 class="contact_card-title">Linked In</h3>
+                <span class="contact_card-data">Neev Jain</span>
+                <a href="https://www.linkedin.com/in/neev-jain-898819210/">
+                  <span class="contact_button">
+                    Write me
+                    <i class="uil uil-arrow-right contact_button-icon"></i>
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="contact_content">
+            <form onsubmit="return false" class="contact_form">
+              <div class="input_container">
+                <input type="text" class="input" id="form-name" />
+                <label for="">Name</label>
+                <span>Name</span>
+              </div>
+              <div class="input_container">
+                <input type="email" class="input" id="form-email" />
+                <label for="">Email</label>
+                <span>Email</span>
+              </div>
+              <div class="input_container">
+                <input type="tel" class="input" id="form-phone" />
+                <label for="">Phone</label>
+                <span>Phone</span>
+              </div>
+              <div class="input_container">
+                <textarea
+                  name=""
+                  id="form-message"
+                  class="input textarea"
+                ></textarea>
+                <label for="">Message</label>
+                <span>Message</span>
+              </div>
+              <button class="button" type="submit" onclick="email_details()">
+                <i class="uil uil-navigator button_icon"></i>
+                Send Message
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <!--===== FOOTER =====-->
+      <footer class="footer">
+        <div class="footer_bg">
+          <div class="footer_container container grid">
+            <div>
+              <h1 class="footer_title">Neev</h1>
+              <span class="footer_subtitle">Student Developer</span>
+            </div>
+
+            <ul class="footer_links">
+              <li><a href="#skills" class="footer_link">Skills</a></li>
+              <li><a href="#work" class="footer_link">Work</a></li>
+              <li><a href="#contact" class="footer_link">Contact</a></li>
+            </ul>
+
+            <div class="footer_socials">
+              <a
+                href="https://www.linkedin.com/in/neev-jain-898819210/"
+                target="_blank"
+                class="footer_social"
+                ><i class="uil uil-linkedin"></i
+              ></a>
+              <a
+                href="https://github.com/neev0511"
+                target="_blank"
+                class="footer_social"
+                ><i class="uil uil-github"></i>
+              </a>
+              <a
+                href="https://instagram.com/neev0511jain/"
+                target="_blank"
+                class="footer_social"
+                ><i class="uil uil-instagram"></i
+              ></a>
+            </div>
+          </div>
+          <p class="footer_copy">&#169; Neev Jain. All rights reserved</p>
+        </div>
+      </footer>
+    </main>
+
+    <!--========== SCROLL UP ==========-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--========== MIXITUP FILTER ==========-->
+    <script src="assets/js/mixitup.min.js"></script>
+
+    <!--========== MAIN JS ==========-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
