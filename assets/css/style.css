@@ -225,7 +225,7 @@ input {
     align-items: center;
     text-align: center;
     display: none;
-    z-index: 1000000;
+    z-index: 9999;
 }
 
 .nav_close {
@@ -1060,6 +1060,14 @@ textarea.input {
     .skills_container {
         grid-template-columns: 300px;
         row-gap: 3rem;
+    }
+    .skills_active .skills_arrow{
+        transform: rotate(0deg);
+        transition: .3s;
+    }
+    .skills_arrow {
+        transform: rotate(-90deg);
+
     }
 
     .work_container{
