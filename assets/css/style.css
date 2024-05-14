@@ -425,6 +425,10 @@ input {
     margin-bottom: var(--mb-2);
 }
 
+.about_data a i{
+    font-size: 20px;
+}
+
 .about_info {
     margin-bottom: var(--mb-3);
     grid-template-columns: repeat(3, 140px);
