@@ -138,3 +138,27 @@ function email_details() {
       window.alert("Message was not sent due to server error");
     });
 }
+
+// 768px
+function changeWidth() {
+  if (screen.width <= 768) {
+    f = document.getElementById("frontend");
+    s = document.getElementById("software");
+    b = document.getElementById("backend");
+    fr = document.getElementById("fr");
+    sf = document.getElementById("sf");
+    bk = document.getElementById("bk");
+
+    f.classList.remove("skills_active");
+    s.classList.remove("skills_active");
+    b.classList.remove("skills_active");
+    fr.classList.remove("skills_active");
+    sf.classList.remove("skills_active");
+    bk.classList.remove("skills_active");
+
+    b.classList.add("skills_active");
+    bk.classList.add("skills_active");
+  }
+}
+
+changeWidth();
