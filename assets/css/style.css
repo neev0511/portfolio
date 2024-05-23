@@ -286,7 +286,7 @@ input {
     align-items: center;
     column-gap: 3.5rem;
     flex-direction: column;
-    font-size: var(--h1-font-size);
+    font-size: var(--h2-font-size);
 }
 
 .home_social-follow{
@@ -298,11 +298,11 @@ input {
 .home_social-links::before{
     content: "";
     position: absolute;
-    width: 40px;
+    width: 30px;
     height: 2px;
     background-color: var(--text-color);
     top: 40%;
-    right: 40%;
+    right: 38%;
     transform: rotate(90deg);
 
 }
@@ -315,7 +315,7 @@ input {
 }
 
 .home_social-link{
-    font-size: var(--h1-font-size);
+    font-size: var(--h2-font-size);
     color: var(--text-color);
     transition: .3s;
 }
@@ -1010,7 +1010,7 @@ textarea.input {
 
     
     .home_social-links::before {
-        width: 30px;
+        width: 25px;
         right: 38%;
     }
 
