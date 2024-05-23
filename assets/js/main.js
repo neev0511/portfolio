@@ -131,12 +131,23 @@ function email_details() {
       message: message,
     })
     .then(function (response) {
+      document.getElementById("form-name").value = "";
+      document.getElementById("form-email").value = "";
+      document.getElementById("form-phone").value = "";
+      document.getElementById("form-message").value = "";
       window.alert("Message Sent");
     })
     .catch(function (error) {
       console.log(error);
       window.alert("Message was not sent due to server error");
     });
+}
+
+function startServer() {
+  url = "https://portfolio-backend-nxm5.onrender.com/startServer";
+  axios.get(url).then((res) => {
+    console.log(res);
+  });
 }
 
 // 768px
@@ -162,3 +173,4 @@ function changeWidth() {
 }
 
 changeWidth();
+startServer();
