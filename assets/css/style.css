@@ -1041,6 +1041,7 @@ textarea.input {
 
     .work_card {
         padding: 1rem;
+        height: 260px;
     }
 
     .work_img {
