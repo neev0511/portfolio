@@ -174,3 +174,4 @@ function changeWidth() {
 
 changeWidth();
 startServer();
+AOS.init();

@@ -124,6 +124,7 @@ input {
 /*=============== REUSABLE CSS CLASSES ===============*/
 .section {
     padding: 6.5rem 0 2rem;
+    overflow-x: hidden;
 }
 
 .section_title{

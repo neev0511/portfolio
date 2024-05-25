@@ -24,6 +24,10 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     ></script>
+
+    <!-- Animation -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <title>Neev Jain</title>
   </head>
 
@@ -149,7 +153,7 @@
         <h2 data-heading="My Intro" class="section_title">About Me</h2>
         <div class="about_container container grid">
           <img src="assets/img/about-img.png" alt="" class="about_img" />
-          <div class="about_data">
+          <div class="about_data" data-aos="fade-left">
             <h3 class="about_heading">
               Hi, I'm Neev, Student at Boston University
             </h3>
@@ -179,7 +183,11 @@
                 <i class="uil uil-graduation-cap"></i>Education
               </h3>
               <div class="timeline">
-                <div class="timeline_item">
+                <div
+                  class="timeline_item"
+                  data-aos="flip-up"
+                  data-aos-duration="450"
+                >
                   <div class="circle_dot"></div>
                   <h3 class="timeline_title">Boston University, USA</h3>
                   <div class="timeline_text">B.E. in Computer Engineering</div>
@@ -187,7 +195,11 @@
                     ><i class="uil uil-calendar-alt"></i>2024 - Present</span
                   >
                 </div>
-                <div class="timeline_item">
+                <div
+                  class="timeline_item"
+                  data-aos="flip-up"
+                  data-aos-duration="450"
+                >
                   <div class="circle_dot"></div>
                   <h3 class="timeline_title">
                     G. D. Goenka Public School, New Delhi, India
@@ -204,7 +216,11 @@
                 <i class="uil uil-suitcase"></i>Experience
               </h3>
               <div class="timeline">
-                <div class="timeline_item">
+                <div
+                  class="timeline_item"
+                  data-aos="flip-up"
+                  data-aos-duration="450"
+                >
                   <div class="circle_dot"></div>
                   <h3 class="timeline_title">
                     TalentHome Solutions LLP - Intern
@@ -219,7 +235,11 @@
                     2021</span
                   >
                 </div>
-                <div class="timeline_item">
+                <div
+                  class="timeline_item"
+                  data-aos="flip-up"
+                  data-aos-duration="450"
+                >
                   <div class="circle_dot"></div>
                   <h3 class="timeline_title">SUPROS - Intern</h3>
                   <div class="timeline_text">
@@ -420,7 +440,7 @@
         </div>
 
         <div class="work_container container grid">
-          <div class="work_card mix app">
+          <div class="work_card mix app" data-aos="zoom-in">
             <h3 class="work_title">Voice Assistant</h3>
             <div class="work_description">
               Created a Voice Assistant using Python. Programmed a virtual
@@ -438,7 +458,7 @@
               </span>
             </a>
           </div>
-          <div class="work_card mix web">
+          <div class="work_card mix web" data-aos="zoom-in">
             <h3 class="work_title">Expense Tracker</h3>
             <div class="work_description">
               A comprehensive web application designed to monitor and analyze
@@ -459,7 +479,7 @@
               </span>
             </a>
           </div>
-          <div class="work_card mix app">
+          <div class="work_card mix app" data-aos="zoom-in">
             <h3 class="work_title">Newsletter</h3>
             <div class="work_description">
               Developed an app to email daily news using various news APIs and
@@ -476,7 +496,7 @@
               </span>
             </a>
           </div>
-          <div class="work_card mix web">
+          <div class="work_card mix web" data-aos="zoom-in">
             <h3 class="work_title">To-Do List</h3>
             <div class="work_description">
               A simple and intuitive web application that allows users to
@@ -497,7 +517,7 @@
               </span>
             </a>
           </div>
-          <div class="work_card mix app">
+          <div class="work_card mix app" data-aos="zoom-in">
             <h3 class="work_title">Flappy Bird</h3>
             <div class="work_description">
               An addictive and challenging recreation of the popular mobile game
@@ -524,7 +544,7 @@
         <div class="contact_container container grid">
           <div class="contact_content">
             <div class="contact_info">
-              <div class="contact_card">
+              <div class="contact_card" data-aos="fade-right">
                 <i class="uil uil-envelope-edit contact_icon"></i>
                 <h3 class="contact_card-title">Email</h3>
                 <span class="contact_card-data">neev0511jain@gmail.com</span>
@@ -536,7 +556,7 @@
                 </a>
               </div>
 
-              <div class="contact_card">
+              <div class="contact_card" data-aos="fade-right">
                 <i class="uil uil-instagram contact_icon"></i>
                 <h3 class="contact_card-title">Instagram</h3>
                 <span class="contact_card-data">@neev0511jain</span>
@@ -548,7 +568,7 @@
                 </a>
               </div>
 
-              <div class="contact_card">
+              <div class="contact_card" data-aos="fade-right">
                 <i class="uil uil-linkedin contact_icon"></i>
                 <h3 class="contact_card-title">Linked In</h3>
                 <span class="contact_card-data">Neev Jain</span>
