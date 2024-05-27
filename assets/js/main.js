@@ -143,13 +143,6 @@ function email_details() {
     });
 }
 
-function startServer() {
-  url = "https://portfolio-backend-nxm5.onrender.com/startServer";
-  axios.get(url).then((res) => {
-    console.log(res);
-  });
-}
-
 // 768px
 function changeWidth() {
   if (screen.width <= 768) {
@@ -171,7 +164,5 @@ function changeWidth() {
     bk.classList.add("skills_active");
   }
 }
-
 changeWidth();
-startServer();
 AOS.init();
