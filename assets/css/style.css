@@ -1237,4 +1237,7 @@ textarea.input {
     .work_filters{
         column-gap: .25rem;
     }
+    .work_card{
+        min-height: 270px;
+    }
 }
